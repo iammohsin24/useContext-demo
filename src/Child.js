@@ -8,6 +8,7 @@ function Child() {
     <div>
       Child!!!
       Number: {value}
+      <button onClick={()=>{value[1](++value[0])}}>+</button>
     </div>
   );
 }
